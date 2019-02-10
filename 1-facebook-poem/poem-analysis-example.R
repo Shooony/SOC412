@@ -70,6 +70,7 @@ ggplot(poems, aes(day.num, interactions, color=condition)) +
   xlab("Day Number") +
   ylab("Facebook Interactions") +
   scale_color_manual(values=cbbPalette, name="Intervention") +
+  geom_smooth(method='lm') +
   ggtitle("Facebook Interactions Per Poem")
 
 ## BOXPLOT
@@ -100,7 +101,7 @@ corrplot(cor(poems[c("day.num", "weekend", "interactions", 'i.condition')]), met
 
 ## BOXPLOT
 ggplot(poems, aes(weekend, interactions, fill=condition)) +
-  geom_violin() +
+  geom_boxplot() +
   theme_bw(base_size = 15, base_family = "Helvetica") +
   xlab("Weekend") +
   ylab("Facebook Interactions") +
@@ -109,7 +110,7 @@ ggplot(poems, aes(weekend, interactions, fill=condition)) +
 
 ## VIOLIN PLOT
 ggplot(poems, aes(weekend, interactions, fill=condition)) +
-  geom_boxplot() +
+  geom_violin() +
   theme_bw(base_size = 15, base_family = "Helvetica") +
   xlab("Weekend") +
   ylab("Facebook Interactions") +
