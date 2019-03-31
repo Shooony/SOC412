@@ -38,3 +38,8 @@ vignettes/*.pdf
 
 .DS_Store
 .ipynb_checkpoints
+
+
+# HW
+1-facebook-poem/problemset1_yamaya.Rmd
+1-facebook-poem/problemset1_yamaya.pdf
