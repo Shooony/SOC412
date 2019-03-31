@@ -45,3 +45,5 @@ vignettes/*.pdf
 1-facebook-poem/problemset1_yamaya.Rmd
 1-facebook-poem/problemset1_yamaya.pdf
 2-facebook-tagging/personal-data/*
+output/*
+3-social-media-question/analyze_experiment.R
