@@ -38,8 +38,10 @@ vignettes/*.pdf
 
 .DS_Store
 .ipynb_checkpoints
+<<<<<<< HEAD
 
 
 # HW
 1-facebook-poem/problemset1_yamaya.Rmd
 1-facebook-poem/problemset1_yamaya.pdf
+2-facebook-tagging/personal-data/*
